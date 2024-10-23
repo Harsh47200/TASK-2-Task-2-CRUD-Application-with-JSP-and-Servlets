@@ -1,0 +1,62 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Use a clean font */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    min-height: 100vh; /* Full height of the viewport */
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark background for header */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center header text */
+}
+
+/* Main content styles */
+main {
+    flex: 1; /* Take up available space */
+    display: flex; /* Flexbox for centering */
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+}
+
+/* Heading styles */
+h2 {
+    margin: 20px 0; /* Margin above and below the heading */
+    color: #333; /* Dark text color */
+}
+
+/* Link styles */
+a {
+    display: inline-block; /* Use inline-block for button styling */
+    margin: 20px auto; /* Center the link */
+    padding: 10px 20px; /* Padding around the link */
+    background-color: #007BFF; /* Primary button color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* Footer text color */
+    text-align: center; /* Center text */
+    padding: 10px; /* Padding for footer */
+}
